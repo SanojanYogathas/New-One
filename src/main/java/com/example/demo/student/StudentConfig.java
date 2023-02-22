@@ -15,15 +15,14 @@ public class StudentConfig {
             Student sanojan = new Student(
                         "sanojan",
                         "sanojanyogathas@gmail.com",
-                        LocalDate.of(1998, 8, 12),
-                        25
+                        LocalDate.of(1998, 8, 12)
                         );
 
             Student kunekanth = new Student(
                         "kunekanth",
                         "kunekanth@gmail.com",
-                        LocalDate.of(1998, 8, 5),
-                        25);
+                        LocalDate.of(1997, 8, 5)
+                        );
         // };
 
         List<Student> result = new ArrayList<Student>();
